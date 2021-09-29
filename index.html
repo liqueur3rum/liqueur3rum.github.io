@@ -1,10 +1,20 @@
-<input type="button" id="btn" value="Test1" onclick="OnButtonClickByTest1();">
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+</head>
 
-    <script type="text/javascript">
-        function OnButtonClickTest() {
-            var name = "Test";
-            var id = 123;
-            window.location.href = "uniwebview://send?name=" + name + "&id=" + id;
-        }
-    </script>
+<body>
+    <input type="button" id="btn" value="Test" onclick="OnButtonClick();">
+</body>
+
+<script language="javascript" type="text/javascript">
+    function OnButtonClick() {
+        var sceneName = "Test";
+        var id = 999;
+        window.location.href = "uniwebview://send?sceneName=" + sceneName + "&id=" + id;
+    }
+</script>
+
+</html>
